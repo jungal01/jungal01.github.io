@@ -16,9 +16,7 @@ color: orange;
 .low {
 color: grey;
 }
-#a1 {
+.done {
 text-decoration: line-through;
 }
-#a2 {
-text-decoration: line-through;
-}
+
