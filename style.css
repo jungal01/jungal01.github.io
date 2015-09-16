@@ -1,0 +1,27 @@
+body {
+background-color: light blue;
+}
+nav {
+background-color: white;
+}
+article {
+background-color: blue;
+}
+header {
+font-size: 50px;
+}
+.high {
+color: red;
+}
+.med {
+color: yellow;
+}
+.low {
+color: green;
+}
+#a1 {
+text-decoration: line-through;
+}
+#a2 {
+text-decoration: line-through;
+}
