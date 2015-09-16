@@ -1,11 +1,8 @@
 body {
-background-color: light blue;
+color: light-blue;
 }
 nav {
-background-color: white;
-}
-article {
-background-color: blue;
+  color: white;
 }
 header {
 font-size: 50px;
@@ -14,10 +11,10 @@ font-size: 50px;
 color: red;
 }
 .med {
-color: yellow;
+color: orange;
 }
 .low {
-color: green;
+color: grey;
 }
 #a1 {
 text-decoration: line-through;
