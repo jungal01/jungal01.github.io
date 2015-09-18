@@ -44,3 +44,12 @@ text-decoration: line-through;
   text-decoration: line-through;
   color: cyan;
 }
+#a1>h1 {
+  color: white;
+}
+#a2>h1 {
+  color: brown;
+}
+#a4>h1 {
+  color: cyan;
+}
