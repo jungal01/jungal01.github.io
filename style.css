@@ -22,25 +22,25 @@ text-decoration: line-through;
 #a1 {
   background-color: red;
 }
-#a1>li {
+#a1<li {
   color: white;
 }
 #a2 {
   background-color: orange;
 }
-#a2>li {
+#a2<li {
   color: brown;
 }
 #a3 {
   background-color: grey;
 }
-#a3>li {
+#a3<li {
   color: black;
 }
 #a4 {
   background-color: green;
 }
-#a4>li {
+#a4<li {
   text-decoration: line-through;
   color: cyan;
 }
