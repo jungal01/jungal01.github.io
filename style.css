@@ -40,7 +40,7 @@ text-decoration: line-through;
 #a4 {
   background-color: green;
 }
-#a4<li {
+#a4>li {
   text-decoration: line-through;
   color: cyan;
 }
