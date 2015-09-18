@@ -19,28 +19,28 @@ color: grey;
 done {
 text-decoration: line-through;
 }
-section1 {
+#a1 {
   background-color: red;
 }
-section1>li {
+#a1>ul {
   color: white;
 }
 #a2 {
   background-color: orange;
 }
-section2>li {
+#a2>ul {
   color: brown;
 }
-section3 {
+#a3 {
   background-color: grey;
 }
-section3>li {
+#a3>ul {
   color: black;
 }
-section4 {
+#a4 {
   background-color: green;
 }
-section4>li {
+#a4>ul {
   text-decoration: line-through;
   color: cyan;
 }
