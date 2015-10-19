@@ -1,0 +1,18 @@
+body {
+background-color: lightblue;
+}
+nav {
+background-color: white;
+}
+header {
+background-color: white;
+}
+section {
+overflow: auto;
+width: 500px;
+height: 900px;
+float: left;
+}
+article {
+width: 300px;
+}
