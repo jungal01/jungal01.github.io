@@ -25,3 +25,12 @@ completeTask = function(){
   this.parentNode.classList.remove("done");
   }
   localSave("unlist");
+}
+window.onload = function(){
+  restoreList("unlist", completeTask);
+}
+/*window.onload = function(){
+  addTask();
+  completeTask();
+}
+*/
