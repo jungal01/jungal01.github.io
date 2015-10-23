@@ -1,5 +1,5 @@
 body {
-background-color: lightblue;
+background-color: grey;
 }
 nav {
 background-color: white;
@@ -9,10 +9,17 @@ background-color: white;
 }
 section {
 overflow: auto;
-width: 500px;
-height: 900px;
+width: 600px;
+height: 500px;
 float: left;
+background-color: lightskyblue;
 }
 article {
-width: 300px;
+width: 600px;
+height: 100px;
+text-align: center;
+float: left;
+clear: both;
+background-color: firebrick;
+color: floralwhite;
 }
