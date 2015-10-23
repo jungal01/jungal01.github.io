@@ -4,9 +4,9 @@
     
   }
   #dobox {
-    background-color: blue;
+    background-color: lightskyblue;
     position: relative;
-    height: 250px;
+    height: 600px;
     width: 500px;
     margin-bottom: 50px;
     margin-left: auto;
@@ -17,7 +17,7 @@
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    background-color: blue;
+    background-color: firebrick;
     height: 30px;
     width: 500px;
     color: white;
@@ -37,13 +37,4 @@
 .done {
     color: white;
     text-decoration: line-through;
-}
-footer {
-    clear: both;
-    text-align: center;
-    width: 500px;
-    height: 30px;
-    margin-top: 30px;
-    margin-right: auto;
-    margin-left: auto;
 }
