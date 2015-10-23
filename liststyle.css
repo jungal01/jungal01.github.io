@@ -1,25 +1,49 @@
-body {
-background-color: grey;
+#busy {
+    text-align: center;
+    margin-bottom: 50px;
+    
+  }
+  #dobox {
+    background-color: blue;
+    position: relative;
+    height: 250px;
+    width: 500px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    }
+#enterbox {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-color: blue;
+    height: 30px;
+    width: 500px;
+    color: white;
 }
-nav {
-background-color: white;
+#unlist {
+    list-style: none;
 }
-header {
-background-color: white;
+.High {
+    color: red;
 }
-section {
-overflow: auto;
-width: 600px;
-height: 500px;
-float: left;
-background-color: lightskyblue;
+.Medium{
+    color: yellow;
 }
-article {
-width: 600px;
-height: 100px;
-text-align: center;
-float: left;
-clear: both;
-background-color: firebrick;
-color: floralwhite;
+.Low{
+    color: green;
+}
+.done {
+    color: white;
+    text-decoration: line-through;
+}
+footer {
+    clear: both;
+    text-align: center;
+    width: 500px;
+    height: 30px;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
 }
