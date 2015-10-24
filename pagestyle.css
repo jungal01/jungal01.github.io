@@ -2,6 +2,7 @@ header {
   position: fixed;
   width: 100%;
   top: 0px;
+  left: 0px;
   margin: 40px;
   background-color: white;
 }
