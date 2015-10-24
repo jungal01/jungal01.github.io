@@ -3,22 +3,24 @@ header {
   width: 100%;
   top: 0px;
   left: 0px;
-  margin: 40px;
+  margin-bottom: 50px;
   background-color: white;
 }
 nav {
 position: fixed;
 width: 100%;
-margin-top: 30px;
+margin-bottom: 50px;
 text-align: center;
 }
 aside {
+  margin-top: 250px;
   float: left;
   width: 20%;
   height: 750px;
   background-color: grey;
 }
 section {
+  margin-top: 250px;
   float: right;
   width: 80%;
   height: 500px;
