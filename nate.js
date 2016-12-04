@@ -16,3 +16,5 @@ changeLang = function() {
   else if (document.querySelector('th')) {
     document.body.innerHTML = enLang;
     document.getElementById('th').id = 'en';
+  }
+}
