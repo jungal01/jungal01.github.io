@@ -1,8 +1,8 @@
 changeLang = function() {
   var dict = {
-    en: {"<p>hello</p>" : "<p>hello</p>", 
+    en: { : "<p>hello</p>", 
     },
-    th: {
+    th: {"<p id='en'>hello</p>" : "<p id='th'>lorium ipsum</p>",
     }
   };
   var enLang = 'en';
@@ -12,3 +12,7 @@ changeLang = function() {
     document.body.innerHTML = thLang;
     document.getElementById('en').id = 'th';
   }
+  
+  else if (document.querySelector('th')) {
+    document.body.innerHTML = enLang;
+    document.getElementById('th').id = 'en';
