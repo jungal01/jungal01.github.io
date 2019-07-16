@@ -1,3 +1,5 @@
-# jungal01.github.io
+# My Personal Website
 
-dhagghy;;KMBOUHGbs
+This is a website that began as my first website. It is now a website about myself.
+
+
