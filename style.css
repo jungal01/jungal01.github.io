@@ -1,40 +1,38 @@
-header {
-  position: fixed;
-  width: 100%;
-  top: 0px;
-  left: 0px;
-  margin-bottom: 50px;
-  background-color: white;
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0px;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
 }
-nav {
-position: fixed;
-width: 100%;
-margin-bottom: 50px;
-text-align: center;
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
 }
-aside {
-  margin-top: 250px;
-  float: left;
-  width: 20%;
-  height: 750px;
-  background-color: grey;
+
+a:hover {
+  color: white;
 }
-section {
-  margin-top: 250px;
-  float: right;
-  width: 80%;
-  height: 500px;
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
 }
-article {
-  float: right;
-  width: 80%;
-  height: 250px;
-  background-color: orange;
-}
-footer {
-  clear: both;
-  background-color: pink;
-}
-body {
-  margin: 0px;
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
