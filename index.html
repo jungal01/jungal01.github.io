@@ -8,22 +8,22 @@
 
   <body>
 
-    <div id="mySidenav" class="sidenav">
+    <div id="sidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="index.html">Home</a>
-      <a href="resume.html">Resume</a>
-      <a href="git.html">Github Projects</a>
+      <a href="index.html" class="link">Home</a>
+      <a href="resume.html" class="link">Resume</a>
+      <a href="git.html" class="link">Github Projects</a>
     </div>
-    <span style="font-size:30px;cursor:pointer" class='right' onclick="openNav()">&#9776; open</span>
+    <span style="font-size:30px;cursor:pointer" class='left' onclick="openNav()">&#9776; open</span>
 
 
     <script>
       function openNav() {
-        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("sidenav").style.width = "250px";
       }
 
       function closeNav() {
-        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("sidenav").style.width = "0";
       }
     </script>
 
