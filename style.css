@@ -24,12 +24,6 @@
     color: #818181;
     display: block;
     transition: 0.3s;
-    position: absolute;
-    top: 0;
-    : 0px;
-    font-size: 36px;
-    z-index: 1;
-    margin-right: 50px;
 }
 
 .link {
