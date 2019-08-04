@@ -2,7 +2,12 @@
 
 <html>
   <head>
+    <!-- css links -->
     <link rel="stylesheet" type="text/css" href=style/mainStyle.css>
+    <link rel="stylesheet" type="text/css" href=style/indexStyle.css>
+
+    <!-- js links -->
+    <script type="text/javascript" src="js/index.js"></script>
     <title>Allen Junge</title>
   </head>
 
@@ -18,6 +23,11 @@
     </div>
     <span style="font-size:30px;cursor:pointer" class='left' onclick="openNav()">&#9776; open</span>
 
+    <div id="about">
+      <h1>About Me</h1>
+      <p>My name is Allen Junge. I am</p>
+      <p id="age" onload="getAge()"></p>
+      <p>years old.</p>
 
     <script>
       function openNav() {
