@@ -7,11 +7,11 @@
     <link rel="stylesheet" type="text/css" href=style/indexStyle.css>
 
     <!-- js links -->
-    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="jvsc/index.js" defer></script>
     <title>Allen Junge</title>
   </head>
 
-  <body>
+  <body onload="getAge()">
 
     <div id="sidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -25,8 +25,7 @@
 
     <div id="about">
       <h1>About Me</h1>
-      <p>My name is Allen Junge. I am</p>
-      <p id="age" onload="getAge()"></p>
+      <p>My name is Allen Junge. I am</p><p id="age"></p>
       <p>years old.</p>
 
     <script>
@@ -37,6 +36,13 @@
       function closeNav() {
         document.getElementById("sidenav").style.width = "0";
       }
+
+      function getAge() {
+        day = new Date().getTime();
+        age = Math.floor((day-844300800000)/31557600000);
+        document.getElementById("age").innerHTML = age;
+      }
+
     </script>
 
   </body>
