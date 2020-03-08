@@ -1,0 +1,9 @@
+# markdown and text files should be considered the raw format
+*.md
+*.markdown
+*.txt
+
+# the only required python code is the markdown converter.
+# All other files should be ignored.
+*.py
+__pycache__
