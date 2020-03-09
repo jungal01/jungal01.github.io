@@ -41,7 +41,7 @@ span.left {
 div.nav {
   height: 100%;
   width: 0;
-  margin: auto auto auto 10px;
+  margin: auto auto auto 3px;
   position: absolute;
   z-index: 1;
   top: 0;
@@ -75,9 +75,4 @@ a.link {
 
 .link:hover, .closebtn:hover {
   color: white;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
 }
