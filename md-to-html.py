@@ -23,7 +23,7 @@ def main():
         file = input("Name of Markdown file: ")
 
     fileName = file.split('.')[0]
-    html_doc = open(fileName+".html", 'w')
+    html_doc = open(fileName+"_template.html", 'w')
 
     generated_html = ("<!DOCTYPE html>" +
                       "<!--Converted via md-to-html-->" +

@@ -1,7 +1,35 @@
+/* This is to format the page */
+.header {
+  grid-area: header;
+}
+
+.menu {
+  grid-area: menu;
+}
+
+.main {
+  grid-area: main;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+  'header header header'
+  'menu main main'
+  'menu main main'
+  'footer footer footer';
+  grid-gap: 5px;
+
+}
+
+/* This section is for general styling */
 body {
   font-family: "Helvetica", sans-serif;
 }
-
 
 /* everything below this is required to format the menu */
 span.left {
@@ -10,9 +38,10 @@ span.left {
   float: left;
 }
 
-div.sidenav {
+div.nav {
   height: 100%;
   width: 0;
+  margin: auto auto auto 10px;
   position: absolute;
   z-index: 1;
   top: 0;
@@ -44,11 +73,11 @@ a.link {
   transition: 0.3s;
 }
 
-a:hover {
+.link:hover, .closebtn:hover {
   color: white;
 }
 
-/*@media screen and (max-height: 450px) {
+@media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
-}*/
+}

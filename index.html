@@ -8,35 +8,66 @@
 
     <!-- js links -->
     <script type="text/javascript" src="js/index.js" defer></script>
-    <title>Allen Junge</title>
+    <script type="text/javascript" src="js/base.js"></script>
+
+    <title>
+      Allen Junge
+    </title>
   </head>
 
   <body onload="getAge()">
-    <noscript>It seems your browser is blocking JavaScript, meaning certain aspects of this website may not work. This project is open source, and you are free to view the code and decide for yourself if you wish to disable it. <a href=https://github.com/jungal01/jungal01.github.io>view here</a></noscript>
-    <div id="sidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="index.html" class="link">Home</a>
-      <a href="resume.html" class="link">Resum&#0233;</a>
-      <a href="git.html" class="link">Github Projects</a>
-      <a href="js.html" class="link">Programming Showcase</a>
-      <a href="pl.html" class="link">Language Opinions</a>
+    <div class="grid-container">
+      <div class=header>
+        <noscript>
+          It seems your browser is blocking JavaScript, meaning certain aspects of
+          this website may not work. This project is open source, and you are free
+          to view the code and decide for yourself if you wish to disable it.
+          <a href=https://github.com/jungal01/jungal01.github.io>
+            view here
+          </a>
+        </noscript>
+      </div>
+
+      <div class=menu>
+        <div id="sidenav" class="nav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+            &times;
+          </a>
+          <a href="index.html" class="link">
+            Home
+          </a>
+          <a href="resume.html" class="link">
+            Resum&#0233;
+          </a>
+          <a href="git.html" class="link">
+            Github Projects
+          </a>
+          <a href="js.html" class="link">
+            Programming Showcase
+          </a>
+          <a href="pl.html" class="link">
+            Language Opinions
+          </a>
+        </div>
+          <span style="font-size:30px;cursor:pointer" class='left' onclick="openNav()">
+            &#9776; open
+          </span>
+        </div>
+
+      <div class="main">
+        <h1>
+          About Me
+        </h1>
+        <p>
+          My name is Allen Junge.
+        </p>
+        <p id="age">
+          I am
+        </p>
+      </div>
+
+      <div class=footer>
+      </div>
     </div>
-    <span style="font-size:30px;cursor:pointer" class='left' onclick="openNav()">&#9776; open</span>
-
-    <div id="about">
-      <h1>About Me</h1>
-      <p>My name is Allen Junge.</p><p id="age">I am</p>
-
-    <script>
-      function openNav() {
-        document.getElementById("sidenav").style.width = "250px";
-      }
-
-      function closeNav() {
-        document.getElementById("sidenav").style.width = "0";
-      }
-
-    </script>
-
   </body>
 </html>
